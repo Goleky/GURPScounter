@@ -1,0 +1,71 @@
+.container {
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fighter-container {
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+#fightersContainer {
+    margin-top: 15px;
+}
+
+.modifiers {
+    display: flex;
+    justify-content: center;
+}
+
+.fighter-name {
+    font-weight: bold;
+    color: blue;
+}
+
+.fighter-speed {
+    font-size: 1.2rem;
+}
+
+.decrease-button,
+.increase-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid black;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.decrease-button {
+    background-image: linear-gradient(to bottom right, #FF512F, #DD2476);
+}
+
+.increase-button {
+    background-image: linear-gradient(to bottom right, #72FFB6, #10D164);
+}
+
+.delete-button {
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom right, #FF61D2, #FE9090);
+}
+
+.input {
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
